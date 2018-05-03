@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #6f797a;
+}
+a{
+    color: #6f797a;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+    color: #3cb878;
+}
+header{
+	background: url(../img/Service.jpg) no-repeat 50% 50%;
+    padding: 100px 0;
+    color: #fff;
+}
+header img{
+	margin-bottom: 30px;
+}
+header .title{
+	font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+header .btn{
+	font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 0;
+    margin-bottom: 50px;
+    background: #3cb878;
+    border-color: #3cb878;
+}
+header .btn:hover,
+header .btn:focus{
+    background: none;
+    border-color: #fff;
+}
+.tags{
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.choose-title{
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 100px 0;
+    display: inline-block;
+    border-bottom: 2px solid #6f797a;
+    padding-bottom: 5px;
+}
+.single_demo img{
+    display: inline-block;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single_demo:hover img,
+.single_demo:hover h3{
+    opacity: .7;
+}
+footer{
+    margin: 100px 0;
+    font-size: 16px;
+}
+footer a{
+    font-weight: 700;
+}
+.single_demo h3{
+    margin-top: 70px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    
+}

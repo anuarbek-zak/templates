@@ -1,0 +1,72 @@
+::selection{
+  background: rgba(60,184,120,.7);
+} 
+::-moz-selection{
+  background: rgba(60,184,120,.7);
+} 
+
+.btn-primary{
+  background: #3cb878;
+  border-color: #3cb878;
+}
+.btn-primary:hover{
+  border-color: #3cb878;
+  color: #3cb878;
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+  border-color: #3cb878;
+}
+.offcanvas-menu {
+  background-color: #3cb878;
+}
+.customNavigation .icon-wrap::before,
+.customNavigation .icon-wrap::after {
+  background: #3cb878;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+    background: #3cb878 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #3cb878 !important;
+}
+.portfolio-info a:hover{
+  color: #3cb878;
+}
+ul.portfolio-filter a:hover,
+ul.portfolio-filter a.active {
+    border: 1px solid #3cb878;
+    color: #3cb878;
+}
+#partners #carousel-partners .info{
+  background: rgba(60,184,120,.95);
+}
+#latest-article .each-article:hover:before{
+  background-color: rgba(60,184,120,.5);
+}
+#blog-section article:hover:before{
+  background-color: rgba(60,184,120,.7);
+}
+#feedback .projects-counter .first-one .counter{
+  color: #3cb878;
+}
+#our-story a.btn-primary:hover{
+  color: #3cb878;
+}
+#footer form:before{
+    background: #3cb878;
+}
+#footer form:before{
+    background: #3cb878;
+}
+#footer form input:focus{
+  border-color: #3cb878
+}
+#error-page a:hover{
+  color: #3cb878;
+}
+#preloader span{
+  background:#3cb878;
+}

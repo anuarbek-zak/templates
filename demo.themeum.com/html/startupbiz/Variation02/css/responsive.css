@@ -1,0 +1,233 @@
+/* ==========================================================================
+      responsive
+========================================================================== */
+@media(max-width:1200px){
+	#showmenu{
+		display: none;
+	}
+	#core-services .left-part,
+	#core-services .right-part{
+		margin-top: 50px;
+	}
+	#footer form{
+		width: 250px !important;
+	}
+}
+
+@media(max-width:992px){
+	.slider-wrapper .slideshow-fullwidth-item-bg{
+		min-height: 480px;
+	}
+	.slider-wrapper .slideshow-fullwidth-item-bg .slideshow-fullwidth-item-text{
+		width: 100%;
+		padding: 100px 0;
+		transform: inherit;
+	}
+	#core-services .left-part,
+	#core-services .right-part {
+		margin-top: 0;
+	}
+	#core-services .each-service {
+		margin-bottom: 30px;
+	}
+	#latest-article .details{
+		left: 50px;
+		-webkit-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+	#filterable-portfolio .portfolio-item{
+		width: 50% !important;
+	}
+}
+@media(min-width:768px){
+	.owl-dots{
+		display: none !important;
+	}
+}
+@media(max-width:768px){
+	h1{
+		font-size: 30px !important;	
+		line-height: 35px !important;
+	}
+	h2{
+		font-size: 25px !important;	
+		line-height: 30px !important;
+	}
+	h3{
+		font-size: 20px !important;	
+		line-height: 25px !important;
+	}
+	h4{
+		font-size: 18px !important;	
+		line-height: 23px !important;
+	}
+	.customNavigation{
+		display: none;
+	}
+	.each-features{
+		margin-bottom: 50px;
+		text-align: center;
+		animation: inherit;
+	}
+	.each-features:last-child{
+		margin-bottom: 0;
+	}
+	#feedback {
+		text-align: center;
+		padding: 50px 0;
+	}
+	#feedback .projects-info{
+		padding-right: 0;
+	}
+	#feedback .projects-counter .counter{
+		font-size: 50px;
+		line-height: inherit;
+	}
+	#projects-counter>div {
+		display: inline-block;
+		margin-left: 30px;
+	}
+	#projects-counter>div:first-child {
+		margin-left: 0;
+	}
+	#latest-article{
+		padding-top: 0;
+	}
+	#latest-article h4{
+		font-size: 24px !important;
+		line-height: 28px !important;
+	}
+	#latest-article .each-article{
+		min-height: 300px;
+	}
+	#partners #carousel-partners .item{
+		margin: 0 50px;
+	}
+	ul.portfolio-filter{
+		margin-bottom: 25px;
+	}
+	#filterable-portfolio{
+		padding: 50px 0;
+	}
+	#filterable-portfolio .portfolio-items{
+		margin: 0;
+	}
+	#filterable-portfolio .portfolio-item{
+		width: 100% !important;
+	}
+	ul.portfolio-filter a{
+		padding: 0 10px 10px 0;
+		border: none !important;
+	}
+	.pagination>li>a,
+	.pagination>li>span{
+		font-size: 20px;
+		line-height: 20px;
+		padding: 10px 15px;
+	}
+	#blog-details .blockquote .quote{
+		padding: 100px 20px 50px 20px !important;
+	}
+	#blog-details .author .author-image{
+		margin-bottom: 20px;
+	}
+	#featured-ideas .details .right-part{
+		padding: 25px 15px !important;
+	}
+	#featured-ideas .navigation li a{
+		padding: 0 !important;
+		border: none !important;
+	}
+
+	/*core-services*/
+	#core-services{
+		padding: 60px 0;
+	}
+	.core-img{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.core-img img{
+		display: inline-block;
+	}
+	#core-services .each-service{
+		text-align: center;
+	}
+	#core-services .each-service.media>.pull-left,
+	#core-services .each-service.media>.pull-right{
+		float: none !important;
+	}
+	#core-services .each-service .icon{
+		margin: 0;
+	}
+	.about-info{
+		margin: 50px 0;
+	}
+	.about-info .single-img{
+		margin-top: 50px;
+	}
+	#our-story {
+		padding: 20px 0 50px 0;
+	}
+	#our-heros{
+		margin-top: 50px;
+	}
+	#biz-cta{
+		margin: 50px 0;
+	}
+	#biz-cta .cta-subtitle{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#blog-details .author .about-author p{
+		font-size: 18px;
+	}
+	.contact-info{
+		margin-left: 20px;
+  		margin-top: 30px;
+  		float: left;
+	}
+	#footer{
+		padding: 30px 0;
+	}
+	#footer .row >div {
+		margin-bottom: 50px;
+	}
+	#footer h3{
+		font-size: 25px !important;
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
+	#footer .copyright{
+		margin-top: 0;
+	}
+	#comming-soon h1{
+ 		font-size: 30px;
+ 	}
+ 	#comming-soon h1 + p{
+ 		font-size: 18px;
+ 	}
+ 	#comming-soon .timer-area li>span{
+ 		font-size: 30px;
+ 		line-height: 35px;
+ 	}
+ 	#comming-soon .timer-area li>p{
+ 		font-size: 15px;
+ 	}
+}
+
+@media(max-width:320px){
+	#partners #carousel-partners .item {
+		margin: 0 20px;
+	}
+	#projects-counter>div {
+		display: block;
+		margin: 0;
+	}
+	.pagination>li>a,
+	.pagination>li>span{
+		font-size: 16px;
+		line-height: 16px;
+		padding: 6px 10px;
+	}
+}

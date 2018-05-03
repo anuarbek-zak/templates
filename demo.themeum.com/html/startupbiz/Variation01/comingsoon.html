@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Startup-idea | ComingSoon</title>
+
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <style>
+      @media(max-height:610px){
+        body{
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2c2d2e), color-stop(100%,#545456));
+          background: -webkit-linear-gradient(left, #2c2d2e 0%,#545456 100%);
+          background: linear-gradient(to right, #2c2d2e 0%,#545456 100%);
+        }
+        #comming-soon{
+          min-height: 600px;
+          background: none;
+          padding-top: 10%;
+          padding-bottom: 50px;
+        }
+      }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]--> 
+    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+</head> <!-- head -->
+<body>
+     
+     <!-- start comming soon -->
+     <section id="comming-soon">
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-12 text-center wow fadeIn">
+                      <div class="logo">
+                        <a href="index.html" ><img src="images/comming-soon/logo.png" alt="logo" class="animated pulse infinite" data-wow-delay=".1s"></a>
+                      </div>
+                      <h1>COMING SOON</h1>
+                      <p>We are working on our website design. We are sure this new website will <br> completely blow your mind!</p>
+
+                      <!-- timer -->
+                      <div class="timer-area">
+                        <ul id="countdown"  class="list-unstyled list-inline">
+                          <li>
+                            <span class="days">00</span>
+                            <p class="timeRefDays">Days</p>
+                          </li>
+                          <li>
+                            <span class="hours">00</span>
+                            <p class="timeRefHours">Hours</p>
+                          </li>
+                          <li>
+                            <span class="minutes">00</span>
+                            <p class="timeRefMinutes">Min</p>
+                          </li>
+                          <li>
+                            <span class="seconds">00</span>
+                            <p class="timeRefSeconds">SEC</p>
+                          </li>
+                        </ul>
+                      </div> <!-- end timer-area -->
+
+                      <div class="social-bar">
+                          <ul class="list-unstyled list-inline">
+                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="copyright">
+                          <p>All rights reserved <strong>Startup biz</strong> 2016</p>
+                      </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- end comming sooon -->
+
+
+
+    <!-- jQuery-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/countdown.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        //Window-size div
+        $(window).resize(function() {
+            $('#comming-soon').height($(window).height());
+        });
+
+        $(window).trigger('resize');
+
+
+        //Countdown timer
+        $(document).ready(function(){
+          $("#countdown").countdown({
+            date: "15 May 2016 20:43:00",
+            format: "on"
+          },
+          
+          function() {
+            // callback function
+          });
+        });
+    </script>
+</body>
+</html>
